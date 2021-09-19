@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="container">
-  <h1>PHP + MySQL CRUD Demo</h1>
+  <h1>Web Scrapping CRUD Demo</h1>
   <p>Create, read, update, and delete records below</p>
 
   <table class="table">
