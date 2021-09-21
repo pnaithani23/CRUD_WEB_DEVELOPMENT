@@ -1,9 +1,8 @@
 <?php
-  include '../db.php';
-  $id = $_GET['id'];
-  $sql = "delete from info where id=$id";
-  $conn->query($sql);
-  $conn->close();
-  header("location: index.php");
+    include '../db.php';
+    $Ranking = $_GET['Ranking'];
+    $sql = "delete from csv01 where Ranking=$Ranking";
+    $conn->query($sql);
+    $conn->close();
+    header("location: index.php");
 ?>
-
