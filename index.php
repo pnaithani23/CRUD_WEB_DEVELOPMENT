@@ -5,8 +5,8 @@
 </head>
 <body>
 <div class="container">
-    <h1>PHP + MySQL CRUD Demo</h1>
-    <p>Create, read, update, and delete records below</p>
+    <h1><center>Chart Countdown of the 100 Greatest Albums Ever</center></h1>
+    <p><center>Below you will find a short list of the top albums by decade and a chart of the entire top 100 list.</center></p>
 
 
 
@@ -25,6 +25,11 @@
         <input type="number" class="form-control m-2" id="Points" name="Points">
         <button type="submit" class="btn btn-primary">Add</button>
     </form>
+
+    <table>
+        <td><b>&emsp;Ranking&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td><td><b>Album&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td><td><b>Artist&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td><td><b>Year&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td><td><b>Genre&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td><td><b>Points</td>
+    </table>
+
 
     <table class="table">
         <tbody>
